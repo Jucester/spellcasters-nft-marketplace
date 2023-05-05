@@ -5,7 +5,7 @@ const NFTCard: FC<any> = ({ nft }) => {
   const router = useRouter();
 
   const onClick = () => {
-    router.push(`/nft/${nft._id}`);
+    router.push(`/nfts/${nft._id}`);
   };
 
   return (

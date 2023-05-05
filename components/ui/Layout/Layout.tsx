@@ -20,7 +20,7 @@ const Layout: FC<PropsWithChildrenAndCustomFields> = ({ children, title }) => {
           property="og:description"
           content={`Una página con muchos detalles acerca de ${title}`}
         />
-        <meta property="og:image" content={`${origin}/banner.png`} />
+        {/* <meta property="og:image" content={`${origin}/banner.png`} /> */}
       </Head>
 
       <Navbar />
